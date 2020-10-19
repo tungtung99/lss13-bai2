@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <script src="bai2.js"></script>
+</head>
+
+<body>
+    <div class="container" style=" width: 900px; background-color: cornsilk;">
+        <h3 style="color:orange ; text-align: center;">Công cụ tính chỉ số BMI</h3>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-2" style="text-align: center;">
+                <p>Weight:</p>
+            </div>
+            <div class="col-sm-9" style="text-align: left;">
+                <input type="text" id="inputweight">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-2" style="text-align: center;">
+                <p>Height:</p>
+            </div>
+            <div class="col-sm-9" style="text-align: left;">
+                <input type="text" id="inputheight">
+            </div>
+        </div>
+        <button id="submit" onclick="submit()" style="float: left; margin-top: 15px; margin-left: 35px;">Submit</button>
+        <p id="result" style="color: orangered; margin-top: 65px; margin-left: 35px;"></p>
+    </div>
+</body>
+
+</html>
